@@ -10,7 +10,7 @@ A music player app with functionality to download & add songs via Youtube-dl.
 
 ► You can see downloaded songs' location by clicking the info button and delete songs from there. 
 
-# Used tools and libraries 🛠
+# Created by using... 🛠
 
 1.JavaFX 
 
