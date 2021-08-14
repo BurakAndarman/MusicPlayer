@@ -12,9 +12,12 @@ A music player app with functionality to download & add songs via Youtube-dl.
 
 # Used tools and libraries 🛠
 
-1.JavaFX
+1.JavaFX 
+
 2.SceneBuilder
+
 3.Gradle
+
 4.zkingboos' youtubedl-java fork. (Check out this : https://github.com/zkingboos/youtubedl-java)
 
 # Disclaimer ❗
