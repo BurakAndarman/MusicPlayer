@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="708.0" prefWidth="1216.0" style="-fx-background-color: rgb(56,58,89);" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+   <children>
+      <Button layoutX="986.0" layoutY="424.0" mnemonicParsing="false" onAction="#downloadBtnClicked" prefHeight="25.0" prefWidth="45.0" style="-fx-background-color: #0091ff; -fx-background-radius: 2em;" text="OK" textFill="#383a59">
+         <effect>
+            <ColorAdjust />
+         </effect></Button>
+      <TextField fx:id="tfSong" layoutX="873.0" layoutY="326.0" prefHeight="36.0" prefWidth="292.0" promptText="Artist - Song" style="-fx-background-color: #62727b; -fx-background-radius: 30px;">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></TextField>
+      <Label layoutX="956.0" layoutY="229.0" prefHeight="47.0" prefWidth="127.0" text="Add Music " textFill="#0091ff">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font></Label>
+      <Label layoutX="910.0" layoutY="519.0" text="Downloading duration may vary" textFill="#0091ff">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="91.0" fitWidth="79.0" layoutX="1073.0" layoutY="88.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Downloads/toppng.com-light-blue-music-note-icon-ok-icon-material-design-791x791.png" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="-12.0" prefHeight="708.0" prefWidth="826.0" style="-fx-background-color: rgb(56,52,78);">
+         <children>
+            <ListView fx:id="lvSongs" layoutX="89.0" layoutY="34.0" prefHeight="422.0" prefWidth="655.0" />
+            <ToggleButton fx:id="tglStartStop" layoutX="367.0" layoutY="605.0" mnemonicParsing="false" onAction="#tglStartStopClicked" prefHeight="56.0" prefWidth="56.0" style="-fx-background-radius: 8em; -fx-background-color: #0091ff;" />
+            <Button fx:id="btnSkipPrevious" layoutX="302.0" layoutY="615.0" mnemonicParsing="false" onAction="#btnSkipPreviousClicked" prefHeight="36.0" prefWidth="45.0" />
+            <Slider fx:id="sldrVolume" layoutX="737.0" layoutY="556.0" orientation="VERTICAL" prefHeight="118.0" prefWidth="14.0" value="50.0" />
+            <Button fx:id="btnSkipNext" layoutX="441.0" layoutY="615.0" mnemonicParsing="false" onAction="#btnSkipNextClicked" prefHeight="36.0" prefWidth="45.0" />
+            <Button fx:id="btnRandom" layoutX="561.0" layoutY="615.0" mnemonicParsing="false" onAction="#btnRandomClicked" prefHeight="36.0" prefWidth="33.0" />
+            <Button fx:id="btnReplay" layoutX="182.0" layoutY="615.0" mnemonicParsing="false" onAction="#btnReplayClicked" prefHeight="36.0" prefWidth="33.0" />
+            <Label layoutX="108.0" layoutY="500.0" text="Now Playing :" textFill="#0091ff">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblSong" layoutX="209.0" layoutY="500.0" prefHeight="21.0" prefWidth="516.0" textFill="#0091ff">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <ProgressBar fx:id="prgrsSong" layoutX="142.0" layoutY="573.0" prefHeight="13.0" prefWidth="507.0" progress="0.0" style="-fx-border-radius: 10em;" />
+         </children></AnchorPane>
+      <Label layoutX="884.0" layoutY="106.0" text="Music Player" textFill="#0091ff">
+         <font>
+            <Font name="System Bold" size="29.0" />
+         </font>
+      </Label>
+      <HBox alignment="CENTER_RIGHT" layoutY="-2.0" onMouseDragged="#titleBarDragged" onMousePressed="#titleBarPressed" prefHeight="36.0" prefWidth="1209.0">
+         <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" onMouseClicked="#closeButtonClicked" prefHeight="36.0" prefWidth="18.0" text="X" textFill="#0091ff">
+               <font>
+                  <Font name="System Bold" size="21.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <Button fx:id="btnInfo" layoutX="989.0" layoutY="611.0" mnemonicParsing="false" onAction="#btnInfoClicked" prefHeight="43.0" prefWidth="39.0" />
+   </children>
+</AnchorPane>
