@@ -2,14 +2,6 @@
 
 A music player app with functionality to download & add songs via Youtube-dl.
 
-# Things you have to know 👇
-
-► You must have youtube-dl installed and available in your $PATH environment variable.You must also install ffmpeg to run the program properly.
-
-► Downloading duration depends on song.I suggest you to not click on the app while downloading.
-
-► You can see downloaded songs' location by clicking the info button and delete songs from there. 
-
 # Created by using... 🛠
 
 1.JavaFX 
