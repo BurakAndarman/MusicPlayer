@@ -18,7 +18,7 @@ A music player app with functionality to download & add songs via Youtube-dl.
 
 3.Gradle
 
-4.zkingboos' youtubedl-java fork. (Check out this : https://github.com/zkingboos/youtubedl-java)
+4.zkingboos' youtubedl-java fork. (Check this out : https://github.com/zkingboos/youtubedl-java)
 
 # Screenshots 📷
 
