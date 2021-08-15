@@ -1,6 +1,6 @@
 # MusicPlayer🎵
 
-A music player app with functionality to download & add songs via Youtube-dl.
+A music player project with functionality to download & add songs via Youtube-dl.
 
 # Created by using... 🛠
 
