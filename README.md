@@ -8,9 +8,7 @@ A music player project with functionality to download & add songs via Youtube-dl
 
 2.SceneBuilder
 
-3.Gradle
-
-4.zkingboos' youtubedl-java fork. (Check this out : https://github.com/zkingboos/youtubedl-java)
+3.zkingboos' youtubedl-java fork. (Check this out : https://github.com/zkingboos/youtubedl-java)
 
 # Screenshots 📷
 
